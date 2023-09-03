@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,300&display=swap');
+
+.App {
+  text-align: center;
+}
+
+* {
+  font-family: 'Roboto Mono', monospace;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.title {
+  margin-bottom: 20px;
+}
+
+.button button {
+  margin-right: 15px;
+  padding: 10px;
+  width: 100px;
+  background-color: #7f974d;
+  border: 1px solid #7f974d;
+  color: white;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+.button button:hover {
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
+  transform: scale(1.1);
+}
